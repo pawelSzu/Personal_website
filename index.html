@@ -3,6 +3,7 @@
   <HEAD>
   	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <LINK href="animate-custom.css" rel="stylesheet" type="text/css">
+    <LINK href="normalize.css" rel="stylesheet" type="text/css">
   </HEAD>
  
 <BODY>
@@ -10,6 +11,7 @@
 html
 {
 	font-family: 'Roboto Slab', serif;
+	background-color: #FFF8DC;
 }
 *{
   margin: 0px;
@@ -24,33 +26,40 @@ html
 {
 	/*background-image:url('logPattern.jpg');*/
 	height:100px;
-	border-bottom:2px solid grey;
+	border-bottom:2px solid #CD853F;
 
 }
 #content
 {
-	height:200px;
+	height:400px;
 	width:699px;
 	float:left;
 }
-
+#contentHolder
+{
+	background-color: #EEC591;
+	margin: 0px;
+  	padding: 5px;
+	border:2px solid #CD853F;
+	box-shadow: 10px 10px 5px #888888;
+}
 .chainHolder
 {
 	width:233px;
-	height:71px; 
+	height:51px; 
 	float:left;
 }
 .chainImg
 {
 	width:20px;
-	height:80px;
+	height:60px;
 	position:relative; 
 	left:112px;/*puts chain in center of chainHolder*/ 
 	z-index:-1;
 }
 .chainMenu
 {
-	height:150px;
+	height:120px;
 }
 #sign
 {
@@ -82,7 +91,7 @@ a
   
 <div id="container">
 	<div id="header" >
-		<h1 style="margin-bottom:0;">Pawel Szczurko<br>Rutgers University - New Brunswick,NJ</h1>
+		<h1 style="margin-bottom:0;">Pawel Szczurko</h1><h2>Rutgers University - New Brunswick, NJ</h2>
 	</div>
 	<div id="content">
 		<div class="chainMenu">
@@ -108,12 +117,12 @@ a
 				</div>
 			</div>
 		</div>
+		<div id="contentHolder">
+			Hello<br>Hello2
+		</div>
 
 	</div>
 
-	<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
-	Copyright © Footer
-	</div>
 
 </div>
 
