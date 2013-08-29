@@ -2,92 +2,12 @@
 <HTML>
   <HEAD>
   	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-    <LINK href="animate-custom.css" rel="stylesheet" type="text/css">
+    
     <LINK href="normalize.css" rel="stylesheet" type="text/css">
+    <LINK href="style.css" rel="stylesheet" type="text/css">
   </HEAD>
  
 <BODY>
-<style>
-html
-{
-	font-family: 'Roboto Slab', serif;
-	background-color: #FFF8DC;
-}
-*{
-  margin: 0px;
-  padding: 0px;
-}
-#container
-{
-	width:699px;
-	margin:0 auto;
-}
-#header
-{
-	/*background-image:url('logPattern.jpg');*/
-	height:100px;
-	border-bottom:2px solid #CD853F;
-
-}
-#content
-{
-	height:400px;
-	width:699px;
-	float:left;
-}
-#contentHolder
-{
-	background-color: #EEC591;
-	margin: 0px;
-  	padding: 5px;
-	border:2px solid #CD853F;
-	box-shadow: 10px 10px 5px #888888;
-}
-.chainHolder
-{
-	width:233px;
-	height:51px; 
-	float:left;
-}
-.chainImg
-{
-	width:20px;
-	height:60px;
-	position:relative; 
-	left:112px;/*puts chain in center of chainHolder*/ 
-	z-index:-1;
-}
-.chainMenu
-{
-	height:120px;
-}
-#sign
-{
-	width:155px; 
-	height:65px;
-	position:relative;
-	left:48px;/*aligns sign image with respective chain*/
-	top:-15px;/*aligns sign image with respective chain*/
-	float:left;
-	z-index:1;
-}
-.signHolder
-{
-	width:233px; 
-	height:65px;
-	float:left;
-}
-img
-{
-	border-style: none;
-
-}
-a
-{
-	outline: none;
-}
-</style>
-
   
 <div id="container">
 	<div id="header" >
@@ -98,27 +18,39 @@ a
 			<div class="chainHolder"><img src="chain.gif" class="chainImg" /></div>
 			<div class="chainHolder"><img src="chain.gif" class="chainImg" /></div>
 			<div class="chainHolder"><img src="chain.gif" class="chainImg" /></div>
+			<div class="chainHolder"><img src="chain.gif" class="chainImg" /></div>
+			<div class="chainHolder"><img src="chain.gif" class="chainImg" /></div>
 
 			<div class="signHolder">
 				<div id="sign" class="" onMouseOver="animateThis(this);" >
-					<a href="http://www.google.com"><img src="aboutme.gif" /></a>
+					<a href="http://www.google.com"><img class="signImg" src="aboutme_y.gif" /></a>
 				</div>
 			</div>
 
 			<div class="signHolder">
 				<div id="sign" class="" onMouseOver="animateThis(this);" >
-					<a href="http://www.google.com"><img  src="resume.gif" /></a>
+					<a href="http://www.google.com"><img class="signImg" src="work_y.gif" /></a>
 				</div>
 			</div>
 
 			<div class="signHolder">
 				<div id="sign" class="" onMouseOver="animateThis(this);" >
-					<a href="http://www.google.com"><img  src="contact.gif" /></a>
+					<a href="http://www.google.com"><img class="signImg" src="projects_y.gif" /></a>
+				</div>
+			</div>
+			<div class="signHolder">
+				<div id="sign" class="" onMouseOver="animateThis(this);" >
+					<a href="http://www.google.com"><img class="signImg" src="resume_y.gif" /></a>
+				</div>
+			</div>
+			<div class="signHolder">
+				<div id="sign" class="" onMouseOver="animateThis(this);" >
+					<a href="http://www.google.com"><img class="signImg" src="contact_y.gif" /></a>
 				</div>
 			</div>
 		</div>
 		<div id="contentHolder">
-			Hello<br>Hello2
+			<p>Welcome!</p><br>Hello2
 		</div>
 
 	</div>
@@ -129,7 +61,6 @@ a
 <script>
 function animateThis(sel)
 {
-	//document.getElementById("sign1").className = "animated swing";
 	sel.className="animated swing";
 	setTimeout(function(){removeAnimate(sel)},1000);
 }

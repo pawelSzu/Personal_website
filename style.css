@@ -1,3 +1,91 @@
+/*START page style*/
+html
+{
+	font-family: 'Roboto Slab', serif;
+	background-color: #FFF8DC;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#container
+{
+	width:699px;
+	margin:0 auto;
+}
+#header
+{
+	height:100px;
+	border-bottom:2px solid #CD853F;
+
+}
+#content
+{
+	height:400px;
+	width:699px;
+	float:left;
+}
+#contentHolder
+{
+	background-color: #EEC591;
+	margin: 0px;
+  	padding: 5px;
+	border:2px solid #CD853F;
+	box-shadow: 10px 10px 5px #888888;
+	height: 300px;
+}
+.chainHolder
+{
+	width:139px;
+	height:45px; 
+	float:left;
+}
+.chainImg
+{
+	width:15px;
+	height:50px;
+	position:relative; 
+	left:69px;/*puts chain in center of chainHolder*/ 
+	z-index:-1;
+}
+.chainMenu
+{
+	height:105px;
+}
+#sign
+{
+	position:relative;
+	left:19px;/*aligns sign image with respective chain*/
+	top:-10px;/*aligns sign image with respective chain*/
+	float:left;
+	z-index:1;
+}
+.signImg
+{
+	width:120px;
+	height:51px;
+}
+.signHolder
+{
+	width:139px; 
+	height:56px;
+	float:left;
+}
+img
+{
+	border-style: none;
+
+}
+a img, a:hover img, a:visited img
+{
+	border:0;
+	border-style: none;
+	outline: none;
+}
+/*END page style*/
+
+/*Animate.css*/
+/* framework used for 'shake' effect of menu*/
 .animated
 {
 	-webkit-animation-fill-mode:both;
@@ -63,3 +151,4 @@
 	-o-animation-name: swing;
 	animation-name: swing;
 }
+/*Animate.css*/
