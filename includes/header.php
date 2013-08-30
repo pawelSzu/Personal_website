@@ -2,7 +2,7 @@
 <html>
   <head>
   	<meta charset="utf-8">
-  	<meta name="viewport" content="width=700">
+  	<meta name="viewport" content="width=750">
   	<title>Pawe&#322 Szczurko</title>
 	<meta name="description" content="">
 	<meta name="author" content="Pawel Szczurko">
@@ -34,19 +34,19 @@
 
 			<div class="signHolder">
 				<div id="sign" class="" onMouseOver="animateThis(this);" >
-					<a href="index.html"><img class="signImg" src="images/aboutme_y.gif" /></a>
+					<a href="index.php"><img class="signImg" src="images/aboutme_y.gif" /></a>
 				</div>
 			</div>
 
 			<div class="signHolder">
 				<div id="sign" class="" onMouseOver="animateThis(this);" >
-					<a href="http://www.google.com"><img class="signImg" src="images/work_y.gif" /></a>
+					<a href="work.php"><img class="signImg" src="images/work_y.gif" /></a>
 				</div>
 			</div>
 
 			<div class="signHolder">
 				<div id="sign" class="" onMouseOver="animateThis(this);" >
-					<a href="http://www.google.com"><img class="signImg" src="images/projects_y.gif" /></a>
+					<a href="projects.php"><img class="signImg" src="images/projects_y.gif" /></a>
 				</div>
 			</div>
 			<div class="signHolder">
@@ -56,7 +56,7 @@
 			</div>
 			<div class="signHolder">
 				<div id="sign" class="" onMouseOver="animateThis(this);" >
-					<a href="http://www.google.com"><img class="signImg" src="images/contact_y.gif" /></a>
+					<a href="contact.php"><img class="signImg" src="images/contact_y.gif" /></a>
 				</div>
 			</div>
 		</div>
