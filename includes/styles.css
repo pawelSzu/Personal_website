@@ -8,6 +8,22 @@ html
   margin: 0px;
   padding: 0px;
 }
+.workImg
+{
+	float:left;
+	padding:0px 10px 10px 0px;
+}
+.workImgNoBottom
+{
+	float:left;
+	padding:0px 10px 0px 0px;
+}
+.workBox
+{
+	width:100%;
+	padding: 10px 0px 10px 0px;
+	border-bottom: 1px solid #CD853F;
+}
 .pawelImg
 {
 	width:100px;
@@ -47,7 +63,6 @@ html
   	padding: 5px 10px 5px 10px;/*top,right,bottom,left*/
 	border:2px solid #CD853F;
 	box-shadow: 10px 10px 5px #888888;
-	height: 350px;
 }
 .chainHolder
 {
@@ -89,13 +104,9 @@ html
 }
 .socialLinks
 {
-	/*sets the div at bottom of parent div*/
-	position: absolute; 
-	bottom:0;
-
 	text-align: right;
-	width:98%;
-
+	width:100%;
+	margin-top: 5px;
 }
 .hr
 { 
