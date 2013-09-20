@@ -9,10 +9,47 @@
 	<meta name="author" content="Pawel Szczurko">
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-    <link href="includes/normalize.css" rel="stylesheet" type="text/css">
-    <link href="includes/styles.css" rel="stylesheet" type="text/css">
+    <link href="../includes/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../includes/styles.css" rel="stylesheet" type="text/css">
   </head>
- 
 <body>
+<style>
+#output
+{
+  width:200px;
+  height:200px;
+  background-color: red;
+}
+#cmd
+{
+  border:none;
+  background: transparent;
+
+}
+</style>
+  <div id="output"></div>
+  <input type="text" name="cmd" id="cmd">
 </body>
+<script>
+//get focus to cmd textbox
+window.onload = function() 
+{
+  document.getElementById("cmd").focus();
+};
+
+document.getElementById('cmd').onkeypress = function(e) 
+{
+    var event = e || window.event;
+    var charCode = event.which || event.keyCode;
+
+    if ( charCode == '13' ) 
+    {
+      var user = document.getElementById('cmd');
+      var out = document.getElementById('output');
+      out.innerHTML = user.value;
+      user.value= "";
+      return false;
+    }
+}
+</script>
 </html>
