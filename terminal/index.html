@@ -7,11 +7,30 @@
   	<title>Pawe&#322 Szczurko</title>
   	<meta name="description" content="">
   	<meta name="author" content="Pawel Szczurko">
-  	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  	<link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
     <link href="../includes/normalize.css" rel="stylesheet" type="text/css">
-    <!--link href="../includes/styles.css" rel="stylesheet" type="text/css"-->
 
+    <!--ubuntu mono font from google-->
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:700' rel='stylesheet' type='text/css'>
+
+    <!-- styles needed by jScrollPane -->
+    <link type="text/css" href="jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+    <!-- latest jQuery direct from google's CDN -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+    <!-- the mousewheel plugin - optional to provide mousewheel support -->
+    <script type="text/javascript" src="jquery.mousewheel.js"></script>
+
+    <!-- the jScrollPane script -->
+    <script type="text/javascript" src="jquery.jscrollpane.min.js"></script>
+
+    <!--script type="text/javascript" id="sourcecode">
+      $(function()
+      {
+        $('.scroll-pane').jScrollPane();
+      });
+    </script-->
   </head>
 <body>
 <style>
@@ -60,7 +79,7 @@
   color:#FFFFFF;
   z-index: 2;
 }
-.scrollableWindow
+.scrollableWindow/*#scrollableWindow*/
 {
   width: 700px;
   height: 370px;
@@ -88,6 +107,7 @@
 </body>
 <script>
 var preText = 'guest@pawel.pw~$ ';
+
 document.onclick = function()
 {
   document.getElementById("cmd").focus();
