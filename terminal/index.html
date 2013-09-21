@@ -146,21 +146,34 @@ document.getElementById('cmd').onkeypress = function(e)
     if ( charCode == '13' ) 
     {
       var out = document.getElementById('output');
-      var wasCleared = false;
       if( (user.value).trim() == "clear")
       {
         out.innerHTML="";
-        wasCleared=true;
 
       }
-      if((out.innerHTML).length==0 && !wasCleared)
+      else if((user.value).trim() == "cd")
       {
-        out.innerHTML =preText+ user.value;
+        if((out.innerHTML).length==0 )
+        {
+          out.innerHTML =preText+ user.value;
+        }
+        else 
+        {
+          out.innerHTML =out.innerHTML + '<br>'+preText+ user.value;
+        }
       }
-      else if(!wasCleared)
+      else
       {
-        out.innerHTML =out.innerHTML + '<br>'+preText+ user.value;
+        if((out.innerHTML).length==0 )
+        {
+          out.innerHTML =preText+ user.value + '<br>'+user.value+': command not found';
+        }
+        else 
+        {
+          out.innerHTML =out.innerHTML + '<br>'+preText+ user.value + '<br>'+user.value+': command not found';
+        }
       }
+      
 
       //clears the hidden inputbox
       user.value= "";
