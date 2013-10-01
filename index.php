@@ -28,7 +28,7 @@ include ('includes/header.php');
 			<br>
 			<p>
 				Below you will find links to my 
-				<a href="https://github.com/pawelSzu">Github</a> and 
+				<a href="https://github.com/ps">Github</a> and 
 				<a href="http://www.linkedin.com/pub/pawel-szczurko/67/666/7a4">Linkedin</a> profiles.
 			</p>
 
