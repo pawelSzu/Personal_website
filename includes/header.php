@@ -11,6 +11,7 @@
   	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link href="includes/normalize.css" rel="stylesheet" type="text/css">
     <link href="includes/styles.css" rel="stylesheet" type="text/css">
+<?php include('analytics.php'); ?>
   </head>
  
 <body>
