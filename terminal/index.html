@@ -107,6 +107,7 @@
 </body>
 <script>
 var preText = 'guest@pawel.pw~$ ';
+var pages = new Array("aboutme.txt", "contact.txt", "projects.txt", "resume.pdf", "work.txt");
 
 document.onclick = function()
 {
@@ -150,6 +151,25 @@ document.getElementById('cmd').onkeypress = function(e)
       {
         out.innerHTML="";
 
+      }
+      else if((user.value).trim()=="ls")
+      {
+        if((out.innerHTML).length==0 )
+        {
+          out.innerHTML =preText+ user.value ;
+        }
+        else 
+        {
+          out.innerHTML =out.innerHTML + '<br>'+preText+ user.value;
+        }
+
+        out.innerHTML = out.innerHTML + "<br>";
+
+        for(i =0; i<pages.length; i++)
+        {
+          out.innerHTML = out.innerHTML + pages[i] + "&nbsp;&nbsp;";
+        }
+        
       }
       else if((user.value).trim() == "cd")
       {
