@@ -1,17 +1,38 @@
 <?php 
 include ('includes/header.php');
 ?>
-			Various Projects<div class="hr"></div>
-			<p>
-				<u><a href="https://github.com/pawelSzu/Smart_Dino">Smart Dino</a> (HackNY, Columbia 
-				Univserity Spring 2013)</u><br>
-				This was my first solo hackathon hack. The little service would first check the users' GMail inboxes 
-				for a specific email that they were waiting for. The users would input their GMail
-				account information as well as a keyword to look for in emails. If such keyword was found in an email, 
-				Smart Dino would send that email to the provided phone number via text message. The hack was accomplished
-				via cron job, GMail API, and PHP/MySQL. The basic code is on Github, it could deffinitely use a lot more
-				work, but I have not gotten around to it.
-			</p>
+
+Various Projects<div class="hr"></div>
+
+<?php
+
+//FILE FORMAT: entries separated by '===', fields separated by ';;'
+
+$filename = "text/projects.txt";
+$handle = fopen($filename, "r");
+$content = fread($handle, filesize($filename));
+fclose($handle);
+
+$lines = explode("===", $content);
+for($i=0; $i<count($lines); $i++)
+{
+	//The 'isset' function is used to make PHP happy and not throw notices
+	//
+	//$items[0]: project name
+	//$items[1]: github/website link
+	//$items[2]: location/date info
+	//$items[3]: description
+	//
+	
+	$items = explode(";;", $lines[$i]);
+	echo "<p>";
+	echo "<u><a href=\"".(isset($items[1]) ? $items[1] : "")."\">".(isset($items[0]) ? $items[0] : "")."</a>".(isset($items[2]) ? $items[2] : "")."</u><br>";
+	echo (isset($items[3]) ? $items[3] : "");
+
+	echo "</p>";
+}
+
+?>
 
 <?php
 include ('includes/footer.php');
