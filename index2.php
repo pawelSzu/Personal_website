@@ -5,7 +5,7 @@ include ('includes/header.php');
 <?php
 $handle = fopen("text/index.txt", "r");
 
-while( ($line=fgets($hadle) !==false) )
+while( ($line=fgets($handle) !==false) )
 {
 	echo "<p>".$line."</p>";
 }
