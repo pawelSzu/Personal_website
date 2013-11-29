@@ -1,3 +1,13 @@
+The Terminal Site;;
+https://github.com/ps/web_terminal;;
+(Side project, Fall 2013);;
+When I initially this site I had a hard time coming up with a decent design, thus during that 
+stage I came up with an idea to just make my site into a Ubuntu terminal. I actually ended up
+finishing this site first and then got to creating a terminal version. What I mean by terminal
+version is that you can browse the content of this site in the same manner in which you
+navigate a terminal. The source code is up on <a href="https://github.com/ps/web_terminal" target="_blank">
+Github</a> and the live version can be found <a href="http://www.terminal.pawel.pw" target="_blank">here</a>.
+===
 Smart Dino;;
 https://github.com/ps/Smart_Dino;;
 (HackNY, Columbia Univserity Spring 2013);;
@@ -7,13 +17,3 @@ account information as well as a keyword to look for in emails. If such keyword 
 Smart Dino would send that email to the provided phone number via text message. The hack was accomplished
 via cron job, GMail API, and PHP/MySQL. The basic code is on Github, it could deffinitely use a lot more
 work, but I have not gotten around to it.
-===
-The Terminal Site;;
-https://github.com/ps/web_terminal;;
-(Side project, Fall 2013);;
-When I initially this site I had a hard time coming up with a decent design, thus during that 
-stage I came up with an idea to just make my site into a Ubuntu terminal. I actually ended up
-finishing this site first and then got to creating a terminal version. What I mean by terminal
-version is that you can browse the content of this site in the same manner in which you
-navigate a terminal. The source code is up on <a href="https://github.com/ps/web_terminal" target="_blank">
-Github</a> and the live version can be found <a href="http://www.terminal.pawel.pw">here</a>.
