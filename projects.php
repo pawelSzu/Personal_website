@@ -26,7 +26,7 @@ for($i=0; $i<count($lines); $i++)
 	
 	$items = explode(";;", $lines[$i]);
 	echo "<p>";
-	echo "<u><a href=\"".(isset($items[1]) ? $items[1] : "")."\">".(isset($items[0]) ? $items[0] : "")."</a>".(isset($items[2]) ? $items[2] : "")."</u><br>";
+	echo "<u><a href=\"".(isset($items[1]) ? $items[1] : "")."\" target=\"_blank\">".(isset($items[0]) ? $items[0] : "")."</a>".(isset($items[2]) ? $items[2] : "")."</u><br>";
 	echo (isset($items[3]) ? $items[3] : "");
 
 	echo "</p>";
