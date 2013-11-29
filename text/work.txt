@@ -9,7 +9,7 @@ from anything as small as adding a textbox to creating surveys for students to f
 reports based on the survey results. Recently I completed an integration of an outside system (
 <a href="http://www.scholarchip.com/">ScholarChip</a>) into our system so that users could register 
 on our site for a conference and then be redirected to <a href="http://www.scholarchip.com/">ScholarChip</a>
-, which would process their online credit card payment.;;
+, which would process their online credit card payment.
 ===
 images/rutgers.png;;
 http://oit.rutgers.edu;;
@@ -18,7 +18,7 @@ IT Assistant;;
 This was my first On-Campus job at Rutgers. As a part of the Work-Study program at Rutgers I was
 assigned to one of the IT groups. I worked there for the majority of my freshman year. While there, I
 researched for various replacement hardware (such as printers), imaged a large quanity of computers for
-employees using GhostCast, and did minor web development work.;;
+employees using GhostCast, and did minor web development work.
 ===
 images/krk.jpg;;
 http://www.krakowiakrestaurant.com;;
@@ -28,7 +28,7 @@ I was given the task of creating a website for a local Polish restaurant. The on
 given was, <i>'We need a website, here's our menu'</i>. Despite having no artistic nor design 
 skill whatsoever, I somehow managed to patch up a decently looking site. During 2012-2013 winter break
 I added a back-end administrative side to the page which allows for simple and dynamic editing of the menu. 
-I still occasionally make little uptades to the site whenever I'm asked.;;
+I still occasionally make little uptades to the site whenever I'm asked.
 ===
 images/system.jpg;;
 http://www.systemfreight.net;;
@@ -37,7 +37,7 @@ Data Entry Clerk;;
 Yet another high school job, which I held during my senior year. I was responsible for entering
 various type of information into an internal database. Some of it the information pertained to
 fuel consumption, delayed deliveries, and driver work hours. I would also occasionally set up mobile
-phones for drivers, carry boxes, and unpack mail.;;
+phones for drivers, carry boxes, and unpack mail.
 ===
 images/soccer.jpg;;
 http://www.njrefs.com;;
@@ -45,4 +45,4 @@ MNJYSA;;
 Youth Soccer Referee;;
 I am a licensed U.S. Soccer Referee. In high school this was a great way for me to have some fun
 and earn some money. Unfortunately, while at Rutgers I have very little time to go back home to
-referee games.;;
+referee games.

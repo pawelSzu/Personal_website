@@ -6,4 +6,4 @@ for a specific email that they were waiting for. The users would input their GMa
 account information as well as a keyword to look for in emails. If such keyword was found in an email, 
 Smart Dino would send that email to the provided phone number via text message. The hack was accomplished
 via cron job, GMail API, and PHP/MySQL. The basic code is on Github, it could deffinitely use a lot more
-work, but I have not gotten around to it.;;
+work, but I have not gotten around to it.
