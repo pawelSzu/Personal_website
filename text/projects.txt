@@ -1,7 +1,7 @@
 The Terminal Site;;
 https://github.com/ps/web_terminal;;
 (Side project, Fall 2013);;
-When I initially this site I had a hard time coming up with a decent design, thus during that 
+When I initially was creating this site I had a hard time coming up with a decent design, thus during that 
 stage I came up with an idea to just make my site into a Ubuntu terminal. I actually ended up
 finishing this site first and then got to creating a terminal version. What I mean by terminal
 version is that you can browse the content of this site in the same manner in which you
