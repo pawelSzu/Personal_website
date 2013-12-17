@@ -6,7 +6,7 @@ stage I came up with an idea to just make my site into a Ubuntu terminal. I actu
 finishing this site first and then got to creating a terminal version. What I mean by terminal
 version is that you can browse the content of this site in the same manner in which you
 navigate a terminal. The source code is up on <a href="https://github.com/ps/web_terminal" target="_blank">
-Github</a> and the live version can be found <a href="http://www.terminal.pawel.pw" target="_blank">here</a>.
+Github</a> and the live version can be found <a href="http://terminal.pawel.pw" target="_blank">here</a>.
 ===
 Smart Dino;;
 https://github.com/ps/Smart_Dino;;
