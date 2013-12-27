@@ -1,5 +1,19 @@
+Drinker's Guide;;
+http://kevinalbs.com/drinkersGuide;;
+(Notable Class Project, Fall 2013);;
+While this project was done for a database class at Rutgers University, I still find it worthy of 
+being listed here since it was both fun yet challenging at the same time. The basis for the project 
+was to expand on the in-class example schema of beer-bar-drinker. Along with my project partner, 
+<a href="http://kevinalbs.com">Kevin Alberston</a>, we decided to make our project about bar safety. Just to name 
+a few, we generated random data, with various patterns implanted, for drinkers, sex offenders (with real pictures 
+scraped from Florida predators website), consumption for drinkers, as well as many more. There is still a bit 
+more to this project than what is here in this description so check out the live version <a href="http://kevinalbs.com/drinkersGuide">
+here</a>. Check out the 'Technical' section of the site for some of the 'mean' queries behind the scenes as well 
+as the source code <a href="https://github.com/ps/Drinkers_Guide">here</a> on Github. Feel free to attack me 
+with more questions about this.
+===
 The Terminal Site;;
-https://github.com/ps/web_terminal;;
+http://terminal.pawel.pw;;
 (Side project, Fall 2013);;
 When I initially was creating this site I had a hard time coming up with a decent design, thus during that 
 stage I came up with an idea to just make my site into a Ubuntu terminal. I actually ended up
