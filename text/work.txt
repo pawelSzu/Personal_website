@@ -1,3 +1,15 @@
+images/cs111.jpg;;
+http://cs.rutgers.edu;;
+Rutgers Department of Computer Science;;
+Peer Leader;;
+As a peer leader for <a href="http://www.cs.rutgers.edu/undergraduate/courses/111/" target="_blank">
+Introduction to Computer Science</a> (CS111) I am responsible for going over problem sets in Java 
+and teaching basic Java programming techniques and principles during a recitation session. Along with
+weekly recitation meetings, I am responsible for taking attendence and grading student projects. This 
+is a great opportunity for me to share my knowledge with those who are being introduced to Computer 
+Science as well as to brush up on my Java knowledge since I am expected to answer questions regarding 
+various details of the language. 
+===
 images/gsapp.png;;
 http://gsappweb.rutgers.edu;;
 Rutgers Graduate School of Applied &amp; Prof. Psychology;;
@@ -6,8 +18,8 @@ As the lone web developer I maintain a PHP/MySQL system used by students, facult
 The system stores student records as well as allows users to reserve rooms, fill out various surverys, 
 and view various reports. For the most part my job consits of making modifications/additions to the site 
 from anything as small as adding a textbox to creating surveys for students to fill out and generate
-reports based on the survey results. Recently I completed an integration of an outside system (
-<a href="http://www.scholarchip.com/">ScholarChip</a>) into our system so that users could register 
+reports based on the survey results. Recently I completed an integration of an outside system 
+(<a href="http://www.scholarchip.com/">ScholarChip</a>) into our system so that users could register 
 on our site for a conference and then be redirected to <a href="http://www.scholarchip.com/">ScholarChip</a>
 , which would process their online credit card payment.
 ===
