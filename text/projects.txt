@@ -4,12 +4,13 @@ http://kevinalbs.com/drinkersGuide;;
 While this project was done for a database class at Rutgers University, I still find it worthy of 
 being listed here since it was both fun yet challenging at the same time. The basis for the project 
 was to expand on the in-class example schema of beer-bar-drinker. Along with my project partner, 
-<a href="http://kevinalbs.com">Kevin Alberston</a>, we decided to make our project about bar safety. Just to name 
+<a href="http://kevinalbs.com" target="_blank">Kevin Alberston</a>, we decided to make our project about bar safety. Just to name 
 a few, we generated random data, with various patterns implanted, for drinkers, sex offenders (with real pictures 
 scraped from Florida predators website), consumption for drinkers, as well as many more. There is still a bit 
-more to this project than what is here in this description so check out the live version <a href="http://kevinalbs.com/drinkersGuide">
-here</a>. Check out the 'Technical' section of the site for some of the 'mean' queries behind the scenes as well 
-as the source code <a href="https://github.com/ps/Drinkers_Guide">here</a> on Github. Feel free to attack me 
+more to this project than what is here in this description so check out the live version 
+<a href="http://kevinalbs.com/drinkersGuide" target="_blank">here</a>. 
+Check out the 'Technical' section of the site for some of the 'mean' queries behind the scenes as well 
+as the source code <a href="https://github.com/ps/Drinkers_Guide" target="_blank">here</a> on Github. Feel free to attack me 
 with more questions about this.
 ===
 The Terminal Site;;
@@ -29,5 +30,5 @@ This was my first solo hackathon hack. The little service would first check the 
 for a specific email that they were waiting for. The users would input their GMail
 account information as well as a keyword to look for in emails. If such keyword was found in an email, 
 Smart Dino would send that email to the provided phone number via text message. The hack was accomplished
-via cron job, GMail API, and PHP/MySQL. The basic code is on Github, it could deffinitely use a lot more
-work, but I have not gotten around to it.
+via cron job, GMail API, and PHP/MySQL. The code can be found on Github 
+<a href="https://github.com/ps/Smart_Dino" target="_blank">here</a>.
