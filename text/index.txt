@@ -1,4 +1,4 @@
-I am a sophomore at <a href="http://www.rutgers.edu" target="_blank">Rutgers University</a> double majoring 
+I am a junior at <a href="http://www.rutgers.edu" target="_blank">Rutgers University</a> double majoring 
 in <a href="http://cs.rutgers.edu" target="_blank">Computer Science</a> and 
 <a href="http://math.rutgers.edu" target="_blank">Mathematics</a>.;;
 On a programming note, I find MySQL JOINS to be awesome! 

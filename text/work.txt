@@ -1,3 +1,19 @@
+images/nd.jpg;;
+http://www.nextdoor.com;;
+Nextdoor Inc.;;
+Software Engineering Intern;;
+Nextdoor, a private social network for neighborhoods, was were I completed my first summer tech 
+internship. I definitely feel that I have able to learn a ton about how software development
+is done in the industry. For about a month I was working on a link preview feature for the web in 
+Python on the Django framework. In particular, I was responsible for writing and testing the code
+that scraped a website for a possible image, description, and title to be displayed in a link preview
+box. After the web aspect was done, I moved on to implement the same feature on the Nexdoor Android
+app. Despite having no prior experience with Android programming, I was able to quickly get used
+to how things are done. Shortly after, I moved on to implement the ability to view multiple photos
+attached to a post on the Android client as well. Not only was I provided with an opportunity to 
+work with technologies that I previously had not worked with, but I was also exposed to certain
+styles and conventions that I really grew to appreciate, such as unit testing.
+===
 images/cs111.jpg;;
 http://cs.rutgers.edu;;
 Rutgers Department of Computer Science;;

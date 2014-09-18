@@ -23,7 +23,7 @@
 				<h2>Rutgers University - New Brunswick, NJ</h2>
 		</div>
 		<div class="headerImg">
-				<img class="pawelImg" src="images/pawel.gif" />
+				<img class="pawelImg" src="images/pawel_new.gif" />
 		</div>
 	</div>
 	<div id="content">
